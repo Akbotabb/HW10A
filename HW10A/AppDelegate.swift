@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  HW10A
-//
-//  Created by Akbota Omarbek on 24.04.2023.
-//
+
 
 import UIKit
 
@@ -17,9 +12,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-   
+
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
